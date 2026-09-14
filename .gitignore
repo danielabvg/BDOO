@@ -1,0 +1,26 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ZODB
+*.fs
+*.fs.index
+*.fs.lock
+*.fs.tmp
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# macOS
+.DS_Store
+
+# Variables de entorno
+.env
